@@ -1,0 +1,39 @@
+.mainMap {
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.placeMarkLayoutContainer {
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.iconLayoutСircle {
+    background-color: white;
+    position: absolute;
+    left: -23px;
+    top: -23px;
+    width: 46px;
+    height: 46px;
+    border: 2px solid #225D9C;
+    color: #225D9C;
+    line-height: 46px;
+    /* Это CSS свойство не будет работать в Internet Explorer 8 */
+    border-radius: 50px;
+}
+
+.iconLayout {
+    position: absolute;
+    left: -23px;
+    top: -23px;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    border: 2px solid #218703;
+    background-color: #F8FDF7;
+    color: #218703;
+}
