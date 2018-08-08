@@ -21,7 +21,15 @@ map.customGeoCoder('г. Донецк, ул. Артема 71', [], function (coor
                 },
                 options: {
                     draggable: false
-                }
+                },
+                events: [
+                    {
+                        name: 'click',
+                        handler: function (e) {
+                            alert('Клик по метке');
+                        }
+                    }
+                ]
             },
             {
                 address: 'г. Донецк, ул. Уржумская 81',
